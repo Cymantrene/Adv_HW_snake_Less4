@@ -1,3 +1,29 @@
+/*
+    int checkDirection(snake_t* snake, int32_t key)
+{
+    for (int i = 0; i < CONTROLS; i++)
+    {
+        if (key == default_controls[i].down && snake->direction != UP)
+        {
+            return 1;
+        }
+        else if (key == default_controls[i].up && snake->direction != DOWN)
+        {
+            return 1;
+        }
+        else if (key == default_controls[i].right && snake->direction != LEFT)
+        {
+            return 1;
+        }
+        else if (key == default_controls[i].left && snake->direction != RIGHT)
+        {
+            return 1;
+        }
+    }
+    return 0;
+}
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
