@@ -37,7 +37,7 @@
 enum {LEFT=1, UP, RIGHT, DOWN, STOP_GAME=KEY_F(10)};
 enum {MAX_TAIL_SIZE=100, START_TAIL_SIZE=3, MAX_FOOD_SIZE=20, FOOD_EXPIRE_SECONDS=10,SEED_NUMBER=3};
 
-#define CONTROLS 3
+#define CONTROLS 2
 
 struct control_buttons
 {
@@ -50,7 +50,6 @@ struct control_buttons
 struct control_buttons default_controls[CONTROLS] =
 {
     {KEY_DOWN, KEY_UP, KEY_LEFT, KEY_RIGHT},
-    {115, 119, 97, 100},
     {83, 87, 65, 68 }
 };
 
@@ -304,3 +303,5 @@ int main()
     endwin();
     return 0;
 }
+
+    
